@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ebernal\\source\\repos\\million-backend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4E69B913-30D7-41CA-84A9-CFA49FD39DE5}|million-api-test\\million-api-test.csproj|c:\\users\\ebernal\\source\\repos\\million-backend\\million-api-test\\propertiestest\\propertyservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E69B913-30D7-41CA-84A9-CFA49FD39DE5}|million-api-test\\million-api-test.csproj|solutionrelative:million-api-test\\propertiestest\\propertyservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E69B913-30D7-41CA-84A9-CFA49FD39DE5}|million-api-test\\million-api-test.csproj|c:\\users\\ebernal\\source\\repos\\million-backend\\million-api-test\\million_api\\models\\constants\\databasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E69B913-30D7-41CA-84A9-CFA49FD39DE5}|million-api-test\\million-api-test.csproj|solutionrelative:million-api-test\\million_api\\models\\constants\\databasesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedHeight": 279,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataBaseSettings.cs",
+              "DocumentMoniker": "C:\\Users\\ebernal\\source\\repos\\million-backend\\million-api-test\\million_api\\Models\\Constants\\DataBaseSettings.cs",
+              "RelativeDocumentMoniker": "million-api-test\\million_api\\Models\\Constants\\DataBaseSettings.cs",
+              "ToolTip": "C:\\Users\\ebernal\\source\\repos\\million-backend\\million-api-test\\million_api\\Models\\Constants\\DataBaseSettings.cs",
+              "RelativeToolTip": "million-api-test\\million_api\\Models\\Constants\\DataBaseSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T01:12:50.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PropertyServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\ebernal\\source\\repos\\million-backend\\million-api-test\\PropertiesTest\\PropertyServiceTests.cs",
+              "RelativeDocumentMoniker": "million-api-test\\PropertiesTest\\PropertyServiceTests.cs",
+              "ToolTip": "C:\\Users\\ebernal\\source\\repos\\million-backend\\million-api-test\\PropertiesTest\\PropertyServiceTests.cs",
+              "RelativeToolTip": "million-api-test\\PropertiesTest\\PropertyServiceTests.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwDoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T01:12:37.592Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         },
