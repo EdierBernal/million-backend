@@ -4,6 +4,17 @@ using million_api.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: "CorsPolicy",
+                      builder =>
+                      {
+                          builder.SetIsOriginAllowed((host) => true)
+                                    .AllowAnyMethod()
+                                    .AllowAnyHeader()
+                                    .AllowCredentials();
+                      });
+});
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -32,4 +43,8 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+app.UseCors("CorsPolicy");
+
 app.Run();
+
+
